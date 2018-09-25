@@ -36,10 +36,13 @@ text-transform: uppercase;
 ul {
 	display: flex;
 	flex-wrap: wrap;
+	text-align: center;
+	list-style-position: inside;
 }
 
 ul li {
 	width: 50%;
+	padding: 0;
 }
 
 main {
