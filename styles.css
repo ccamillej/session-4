@@ -1,13 +1,23 @@
 * {
 	box-sizing: border-box;
+
 }
 
 html, body {
 	margin: 0;
+	padding: 0;
+font-family: 'Raleway', sans-serif;
+
+}
+
+header,footer {
+	padding: 1px;
 }
 
 header, footer {
-
+	margin-top: 0;
+background-color:#c9ddff;	
+;
 }
 
 .centered {
@@ -15,11 +25,12 @@ header, footer {
 }
 
 header .subtitle {
-
+text-align:center;
 }
 
 h1 {
-
+text-align:center;
+text-transform: uppercase;
 }
 
 ul {
@@ -32,6 +43,8 @@ ul li {
 }
 
 main {
+	max-width: 660px;
+	margin: auto;
 
 }
 
@@ -40,14 +53,14 @@ section {
 }
 
 h2 {
-
+border-bottom: 1px solid black;
 }
 
 h3 {
-
 }
 
 p {
+
 
 }
 
@@ -56,7 +69,7 @@ p {
 }
 
 .object {
-
+color:#8bade5;
 }
 
 .object:after {
@@ -64,5 +77,5 @@ p {
 }
 
 footer h2 {
-
+border-bottom:0px;
 }
